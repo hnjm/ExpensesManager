@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">"ExpenseManager "</string>
+    <string-array name="categories">
+        <item>Food and Dining</item>
+        <item>Rents</item>
+        <item>Auto and Transport</item>
+        <item>Shopping</item>
+        <item>Bills and Utilities</item>
+        <item>Business Services</item>
+        <item>Health and Fitness</item>
+    </string-array>
+</resources>

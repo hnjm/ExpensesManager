@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="#424242"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="2000 $"
+        android:gravity="center"
+        android:id="@+id/tvItemMoney"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvItemCat"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvItemDate"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

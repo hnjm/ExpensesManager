@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_border">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="5dp"
+            android:text="Summery of your Expenses :"
+            android:textAlignment="textStart"
+            android:textSize="17dp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#b4b4b4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvTotalIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Income: "
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tvTotalOutcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvTotalIncome"
+                android:layout_below="@+id/tvTotalIncome"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Expenses :"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv321"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvTotalOutcome"
+                android:layout_alignEnd="@+id/imageView"
+                android:layout_marginEnd="17dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="$ 200,000"
+                android:textColor="@color/Green1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvTotalOutcome"
+                android:layout_alignBottom="@+id/tvTotalOutcome"
+                android:layout_alignStart="@+id/tvMonthlyIncome"
+                android:fontFamily="sans-serif-condensed"
+                android:text="$ 10,000"
+                android:textColor="@color/Red1"
+                android:textSize="14dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="65dp"
+                android:background="#b4b4b4" />
+
+
+            <TextView
+                android:id="@+id/tvTotalMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvTotalOutcome"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Total :"
+                android:textSize="16dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/tvMonthlyTheTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvTotalMoney"
+                android:layout_alignBottom="@+id/tvTotalMoney"
+                android:layout_alignStart="@+id/tvMonthlyIncome"
+                android:fontFamily="sans-serif-condensed"
+                android:text="$ 190,000"
+                android:textColor="@color/Blue1"
+                android:textSize="14dp"
+                android:textStyle="normal" />
+
+
+        </RelativeLayout>
+</LinearLayout>

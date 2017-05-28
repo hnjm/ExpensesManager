@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DrakMain"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:orientation="vertical"
+        android:paddingRight="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/UserNameSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Name :"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:textSize="18dp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:background="@drawable/rounded_border"
+            />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Profile Photo "
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:textSize="18dp"
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Select"
+            />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allow Notification"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal|bold"
+                android:textSize="18dp"
+                android:id="@+id/textView" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/swAllowNotification"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="23dp" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read from Messages"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal|bold"
+                android:textSize="18dp"
+                android:layout_below="@+id/swAllowNotification"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView2" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/swReadMesseges"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_alignStart="@+id/swAllowNotification" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
