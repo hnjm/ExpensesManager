@@ -14,15 +14,15 @@ feel free to ask me any question related to this project or Android development.
 #### Screenshots from the project:
 ![](Images/Screenshot1.0.png?raw=true)
 
-![](Images/Screenshot1.1.PNG?raw=true)
+![](Images/Screenshot2.png?raw=true)
 
-![](Images/Screenshot1.2.PNG?raw=true)
+![](Images/Screenshot3.png?raw=true)
 
-![](Images/Screenshot2.PNG?raw=true)
+![](Images/Screenshot4.png?raw=true)
 
-![](Images/Screenshot3.PNG?raw=true)
+![](Images/Screenshot5.png?raw=true)
 
-![](Images/Screenshot4.PNG?raw=true)
+![](Images/Screenshot6.png?raw=true)
 
 #### My Social Media
 [![](Images/LinkedIn.png)](https://www.linkedin.com/in/salah-a-katranji-a5bb21b7/)
