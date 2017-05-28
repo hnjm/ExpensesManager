@@ -12,17 +12,17 @@ feel free to ask me any question related to this project or Android development.
 - [SQLite Viewer](http://inloop.github.io/sqlite-viewer)
 
 #### Screenshots from the project:
-![](Images/Screenshot 1.0.png?raw=true)
+![](Images/Screenshot1.0.png?raw=true)
 
-![](Images/Screenshot 1.1 .PNG?raw=true)
+![](Images/Screenshot1.1.PNG?raw=true)
 
-![](Images/Screenshot 1.2 .PNG?raw=true)
+![](Images/Screenshot1.2.PNG?raw=true)
 
-![](Images/Screenshot 2 .PNG?raw=true)
+![](Images/Screenshot2.PNG?raw=true)
 
-![](Images/Screenshot 3 .PNG?raw=true)
+![](Images/Screenshot3.PNG?raw=true)
 
-![](Images/Screenshot 4 .PNG?raw=true)
+![](Images/Screenshot4.PNG?raw=true)
 
 #### My Social Media
 [![](Images/LinkedIn.png)](https://www.linkedin.com/in/salah-a-katranji-a5bb21b7/)
