@@ -12,7 +12,7 @@ feel free to ask me any question related to this project or Android development.
 - [SQLite Viewer](http://inloop.github.io/sqlite-viewer)
 
 #### Screenshots from the project:
-![](Images/Screenshot1.0.png?raw=true)
+![](Images/Screenshot1.png?raw=true)
 
 ![](Images/Screenshot2.png?raw=true)
 
